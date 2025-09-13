@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "character": "主人公",
+    "text": "おはよう、世界！",
+    "background": "bg_school",
+    "position": "left",
+    "leftSprite": "alice_normal_0",
+    "rightSprite": ""
+  },
+  {
+    "id": 2,
+    "character": "ヒロイン",
+    "text": "おはようございます。",
+    "background": "bg_school",
+    "position": "right",
+    "leftSprite": "",
+    "rightSprite": "bob_smile_0"
+  },
+  {
+    "id": 3,
+    "character": "主人公",
+    "text": "どうする？",
+    "background": "bg_school",
+    "choices": [
+      { "text": "学校へ行く", "nextId": 4 },
+      { "text": "家にいる", "nextId": 5 }
+    ],
+    "position": "left",
+    "leftSprite": "alice_happy_0",
+    "rightSprite": ""
+  },
+  {
+    "id": 4,
+    "character": "主人公",
+    "text": "学校へ向かった。",
+    "background": "bg_school",
+    "position": "both",
+    "leftSprite": "alice_normal_0",
+    "rightSprite": "bob_smile_0"
+  },
+  {
+    "id": 5,
+    "character": "主人公",
+    "text": "今日は家で休むことにした。",
+    "background": "bg_school",
+    "position": "left",
+    "leftSprite": "alice_normal_0",
+    "rightSprite": ""
+  }
+]
